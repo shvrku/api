@@ -39,5 +39,5 @@ app.get('/', async function(req, res) {
   }
 });
 
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 4000);
 module.exports = app;
